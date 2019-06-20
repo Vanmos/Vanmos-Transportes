@@ -42,7 +42,7 @@ export default class Map extends Component {
         <MapView style={ styles.map }
           initialRegion={ initialRegion }
           region={ initialRegion }>
-          <Marker pinColor={ 'green'}
+          <Marker pinColor={ 'yellow' }
             coordinate={ myCoordinate } />
         </MapView>
     );
