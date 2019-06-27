@@ -4,9 +4,8 @@
 
 import {AppRegistry} from 'react-native';
 
-//import Login from './src/screens/Login'
+import Telas_iniciais from './src/screens/Telas_Iniciais'
 import {name as appName} from './app.json';
-//import Routes from './src/screens/index'
-import Routes from './src/screens/Menu'
+import Menu from './src/screens/Menu'
 
-AppRegistry.registerComponent(appName, () => Routes);
+AppRegistry.registerComponent(appName, () => Telas_iniciais);
